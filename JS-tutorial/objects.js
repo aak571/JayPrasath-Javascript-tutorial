@@ -1,20 +1,15 @@
 /*******************Objects without methods/functions*****************/
-// const car = {
-//     color: 'Red',
-//     number_of_wheels: 2,
-//     head_light_type: 'square',
-//     company: 'Hyundai',
-//     is_extra_indicator: true,
-//     are_there_any_extra_fitting: true
-// }
-
-
-// console.log(car)
-// console.log(car.color, car.number_of_wheels, car.head_light_type, car.company, car.is_extra_indicator,
-//     car.are_there_any_extra_fitting)
+const car1 = {
+    color: 'Red',
+    number_of_wheels: 2,
+    head_light_type: 'square',
+    company: 'Hyundai',
+    is_extra_indicator: true,
+    are_there_any_extra_fitting: true
+}
 
 /*******************Objects with methods/functions*****************/
-const car = {
+const car2 = {
     color: 'Red',
     numberOfWheels: 4,
     headLightType: 'square',
@@ -61,4 +56,4 @@ const car = {
     }
 }
 
-console.log(car.steering.sampleObj.greet(25, 35))
+console.log(car2.steering.sampleObj.greet(25, 35))
